@@ -1,0 +1,11 @@
+﻿@model int[];
+
+<section>
+    @foreach (var item in Model)
+    {
+        @if (item > 0)
+        {
+            <h1>@item</h1>
+        }
+    }
+</section>
